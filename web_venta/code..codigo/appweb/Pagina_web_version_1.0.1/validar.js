@@ -4,7 +4,7 @@ function validar(){
     apellidos = document.getElementById("apellidos").Value
     correo = document.getElementById("correo").Value
     clave = document.getElementById("clave").Value
-    telefono = document.getElementById("telefono").Value
+    telefono = document.getElementById("telefono").Values
     
     expresion = /\w+@\w+\.+[a-z]/;
 

@@ -17,6 +17,7 @@ h1{
 
 p{
     text-shadow: 7px 4px 5px blue;
+    text-align: center;
 }
 table{
     border: #ccc;
