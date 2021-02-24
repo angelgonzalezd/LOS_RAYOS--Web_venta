@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+     <title> Inicio de Seccion de Pagina Web venta </title>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="estilos.css">
+     <script src="validar.js"></script>
+     <link rel="stylesheet" href="estilo.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+     <meta name="theme-color" content="#000000" />
+  </head>
+  
+     <body>
+         <form>
+          <noscript>You need to enable JavaScript to run this app.</noscript>
+          <div id="root"></div>
+           <div class="navbar">
+             <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> INICIO</a> 
+             <a href="catalogo.html"><i class="fa fa-fw fa-search"></i> CATÁLOGO PARA VISUALIZACIÓN</a> 
+             <a href="contactenos.html"><i class="fa fa-fw fa-envelope"></i> CONTACTO</a>
+            
+            </div>
+         </form>
+         <form action="registrar.php" method="post" class="form-register" onsubmit="return validar();">
+          <h2 class="form_titulo">CREAR UNA CUENTA</h2>
+          <div class="contenedor-inputs">
+          <input type="text"  id="nombre" name="nombre" placeholder="Nombres" class="input-48" required>
+          <input type="text"  id="apellidos" name="apellidos" placeholder="Apellidos" class="input-48" required >
+          <input type="email" id="correo" name="correo" placeholder="Correo" class="input-100" required>
+          <input type="text" id="usuario" name="usuario" placeholder="Usuario"class="input-48" required>
+          <input type="password" id="clave" name="clave" placeholder="Contraseña" class="input-48" required>
+          <input type="text"  id="telefono" name="telefono" placeholder="Telefono" class="input-100" required>
+          <input type="submit" value="Registrar" class="btn-enviar">
+          <p class="form_link">¿Ya tienes una cuenta?<a href="iniciar_seccion.html">Ingresar Aqui</a></p>
+          </div>
+        </form>
+     </body>
+     <footer>   
+        <center><small><i>Copyright &copy; 2020 LOS RAYOS</i></small></center>
+     </footer>
+</html>
